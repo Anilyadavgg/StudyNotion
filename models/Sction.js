@@ -11,4 +11,4 @@ const sectionSchema = new mongoose.model({
         }
     ],
 });
-module.export = mongoose.model("Section",sectionSchema);
+module.exports = mongoose.model("Section",sectionSchema);
